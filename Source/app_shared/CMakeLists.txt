@@ -31,3 +31,5 @@ add_library(app_shared STATIC ${COMMON_SRC_FILES})
 target_link_libraries(app_shared PUBLIC Framework)
 target_include_directories(app_shared PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_compile_definitions(app_shared PUBLIC ${APP_SHARED_DEFINITIONS_LIST})
+
+# Update: 2025-10-03
