@@ -112,3 +112,5 @@ if(TARGET_PLATFORM_WIN32)
 									 "$<TARGET_FILE:PsfPlayer>"
 	)
 endif()
+
+# Update: 2025-10-06
